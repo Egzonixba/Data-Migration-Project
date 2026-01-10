@@ -4,7 +4,6 @@
 This is a **learning project** designed to demonstrate a foundational ETL (Extract, Transform, Load) pipeline. It simulates a real-world scenario where legacy data stored in flat files (CSV) needs to be migrated into a relational database (SQLite) for better data integrity and querying capabilities.
 
 The project covers:
-- Handling relative and absolute file paths in Python.
 - Data ingestion using `pandas`.
 - Relational database schema creation using `sqlite3`.
 - Project environment management and version control best practices.
