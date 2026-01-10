@@ -9,12 +9,12 @@ The project covers:
 - Relational database schema creation using `sqlite3`.
 - Project environment management and version control best practices.
 
-## 🛠 Features
+##  Features
 - **Robust Path Management**: Uses `pathlib` to ensure scripts run correctly regardless of the user's current working directory.
 - **Automated Schema Creation**: Automatically generates a `parts` table in the SQLite sandbox upon execution.
 - **SQL Integration**: Demonstrates how to bridge the gap between Python data structures and SQL databases.
 
-## 📁 Project Structure
+##  Project Structure
 - `Data/`: Contains `legacy_parts.csv` and the transformed `cleaned_parts.csv`.
 - `db/`: Storage location for the `sandbox.db` SQLite file.
 - `Scripts/`: 
@@ -22,7 +22,7 @@ The project covers:
     - `validate_sql.py`: A utility script to verify data was loaded correctly.
 - `.gitignore`: Configured to keep the environment (`venv/`) and system files out of version control.
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Prerequisites
 Ensure you have Python 3.x installed. It is recommended to use a virtual environment.
