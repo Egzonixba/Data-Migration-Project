@@ -21,6 +21,20 @@ The project covers:
     - `validate_sql.py`: A utility script to verify data was loaded correctly.
 - `.gitignore`: Configured to keep the environment (`venv/`) and system files out of version control.
 
+## 🔄 Before vs After Migration
+
+###  Before Migration – Legacy CSV
+The legacy data exists as a flat CSV file without enforced schema or constraints.
+
+![Before Migration – Legacy CSV](screenshots/PreMigrationData.jpg)
+
+---
+
+### 🗄 After Migration – SQLite Sandbox Database
+After validation and transformation, the data is migrated into a structured SQLite database with enforced data types and improved integrity.
+
+![After Migration – SQLite Sandbox](screenshots/PostMigrationData.jpg)
+
 ##  How to Run
 
 ### 1. Prerequisites
