@@ -30,7 +30,7 @@ The legacy data exists as a flat CSV file without enforced schema or constraints
 
 ---
 
-### 🗄 After Migration – SQLite Sandbox Database
+###  After Migration – SQLite Sandbox Database
 After validation and transformation, the data is migrated into a structured SQLite database with enforced data types and improved integrity.
 
 ![After Migration – SQLite Sandbox](screenshots/PostMigrationData.jpg)
